@@ -1,8 +1,26 @@
-*{
-background-color : #CAD5E0;
+* {
+  background-color: #cad5e0;
+  font-family: 'Poppins', sans-serif;
 }
-.container{
-   display: flex;
-   flex-direction: column;
-   width: 50vw;
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  text-align: center;
+}
+#check-button {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+#Bill-Amount {
+  margin: 1rem 1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+#Cash-given {
+  margin: 1rem 1rem;
+  padding: 0.5rem;
+  text-align: center;
 }
